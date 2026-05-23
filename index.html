@@ -27,6 +27,11 @@ html{
 }
 
 body{
+    
+    overflow-x:hidden;
+
+    overflow-y:auto;
+
     font-family:'Poppins',sans-serif;
 
     background:black;
@@ -36,10 +41,6 @@ body{
     width:100%;
 
     min-height:100vh;
-
-    overflow-x:hidden;
-
-    overflow-y:auto;
 }
 
 /* =========================
@@ -309,7 +310,7 @@ FINAL PAGE
 ========================= */
 
 #proposalPage{
-
+   
     width:100%;
 
     min-height:100vh;
@@ -323,7 +324,9 @@ FINAL PAGE
     padding-bottom:220px;
 
     -webkit-overflow-scrolling:touch;
-    touch-action: pan-y;
+
+    touch-action:pan-y;
+
 }
 
 /* =========================
@@ -350,7 +353,7 @@ PROPOSAL BOX
     backdrop-filter:blur(10px);
 
     margin-top:30px;
-    margin-bottom:200px;
+    margin-bottom:220px;
 
     box-shadow:0 0 40px rgba(255,255,255,0.08);
     position: relative;
